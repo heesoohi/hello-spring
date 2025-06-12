@@ -11,8 +11,4 @@ public class HomeController {
         return "home";
     }
 
-    @GetMapping("/members/new")
-    public String createForm() {
-        return "members/createMemberForm";
-    }
 }
